@@ -6,6 +6,7 @@ logo: /assets/images/logo.png
 favicon: /assets/images/favicon.ico
 paginate: 6
 baseurl:
+url: "htpps://L-Pace.github.io"
 email: 'luca-pace@onenetbeyond.org'
 google_analytics: UA-103662447-9
 disqus:
@@ -17,7 +18,7 @@ authors:
     name: luca
     display_name: Luca Pace
     image: /assets/images/john.jpg
-    email: hello@john.doe
+    email: luca-pace@onenetbeyond.org
     web: http://example.com
     twitter:
     description: Hi, I am Luca Pace.
