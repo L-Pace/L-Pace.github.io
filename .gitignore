@@ -1,5 +1,14 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# git ignore files and folder
+
+# generated site contents
+_site/
+
+# sass cache
+.sass-cache/*
+
+# ide contents
+.idea/
+.DS_Store
+
+# Cache
+.jekyll-cache/
