@@ -9,16 +9,16 @@ baseurl:
 # Title of the Site
 title: Luca Pace
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Computer Games Tech
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://cdn.pixabay.com/photo/2023/09/19/15/40/ai-generated-8262909_1280.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -37,14 +37,14 @@ spotify_username: /
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: Luca Pace
 
 # Name of the Author
 author-name: Luca Pace
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://avatars.githubusercontent.com/u/98166?s=400&u=0874350e336250d7573a99cf0c4744477144e8f0&v=4
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Game development professional with a passion for emerging technologies. Recent Computer Games Technology graduate from Anglia Ruskin University with expertise in C#, Unreal Engine, and Unity. Contributed to an Android development project with an Italian company. Content creator sharing industry insights via YouTube and Twitch. Combining technical proficiency with creative interests in reading and music to bring a well-rounded perspective to development projects.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/L-Pace
 
