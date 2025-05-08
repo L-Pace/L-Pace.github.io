@@ -1,26 +1,26 @@
 # Site
-name: John Doe
+name: Luca Pace
 description: Just another website
 meta_description: Just another website
 logo: /assets/images/logo.png
 favicon: /assets/images/favicon.ico
 paginate: 6
 baseurl:
-email: 'hello@john.doe'
+email: 'luca-pace@onenetbeyond.org'
 google_analytics: UA-103662447-9
 disqus:
 sharethis:
 
 # Authors
 authors:
-  john:
-    name: john
-    display_name: John Doe
+  luca:
+    name: luca
+    display_name: Luca Pace
     image: /assets/images/john.jpg
     email: hello@john.doe
     web: http://example.com
     twitter:
-    description: Hi, I am John Doe.
+    description: Hi, I am Luca Pace.
 
 # Plugins
 plugins:
@@ -44,18 +44,12 @@ highlighter: rouge
 
 # SEO
 twitter:
-  username: john
+  username: sPacegaminglab
   card: summary
 
-facebook:
-  app_id:
-  publisher: john.com
-  admins:
-
 social:
-name: John Doe
+name: Luca Pace
 links:
-    - https://twitter.com/
-    - https://www.facebook.com/
-    - https://www.linkedin.com/
-    - https://github.com/
+    - https://x.com/spacegaminglab
+    - https://www.linkedin.com/in/luca-pace-ab704323/
+    - https://github.com/L-Pace
