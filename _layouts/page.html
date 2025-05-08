@@ -1,19 +1,30 @@
 ---
-layout: default
+layout: compress
 ---
-<section>
-    <div class="section-title">
-        <center><h2><span>{{ page.title }}</span></h2></center>
-    </div>
 
-    <div class="article-post">
-        {{content}}
-    </div>
-    {% if page.comments == true %}
-    <div id="comments">
-        <div>
-            {% include disqus.html %}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered" id="page-section">
+                <div class="section">
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    {% endif %}
-</section>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
+
+</html>
