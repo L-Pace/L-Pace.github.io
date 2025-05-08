@@ -5,7 +5,7 @@ meta_description: Just another website
 logo: /assets/images/logo.png
 favicon: /assets/images/favicon.ico
 paginate: 6
-baseurl:
+baseurl: /
 url: "htpps://L-Pace.github.io"
 email: 'luca-pace@onenetbeyond.org'
 google_analytics: UA-103662447-9
