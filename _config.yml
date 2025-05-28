@@ -3,7 +3,7 @@ subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "L-Pace.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -25,12 +25,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: Luca Pace
+author_bio: Hi, my name is Luca Pace. I built this site using devlopr-jekyll :D
+author_email: "luca.pace@onenetbeyond.org"
+author_location: United Kingdom
+author_website_url: ""
+typewrite-text: I'm a game developer specialised in Unity and Unreal Engine.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -71,16 +71,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: spacegaminglab
+github_username:  L-Pace
+facebook_username: 
+linkedin_username: lucapace
+behance_username: 
+instagram_username: spacegaminglab
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
