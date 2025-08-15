@@ -2,7 +2,12 @@
 permalink: /about/
 Title: "About"
 layout: single
+
+header:
+    image: /assets/images/about_me_banner.jpg
+
 author_profile: true
+
 ---
 
 Recent Computer Games Technology graduate from Anglia Ruskin University with a unique blend of technical expertise and community leadership experience. With 18+ years of GNU/Linux expertise and a passion for emerging technologies, I bring both deep technical knowledge and proven ability to build and lead technical communities. Co-founder of a regional Linux User Group in Italy, combining strong programming skills in C#, C++, Unity, and Unreal Engine with real-world project management experience.
