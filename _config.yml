@@ -25,7 +25,7 @@ description              : "My personal portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/about_me_banner.jpg
+teaser                   : /assets/images/about-me-banner.jpg
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
@@ -328,3 +328,18 @@ defaults:
       share: true
       related: true
       
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layout for collections
+defaults:
+  - scope:  
+      path: ""
+      type: projects  
+    values:  
+      layout: single
+      author_profile: true
+      share: false

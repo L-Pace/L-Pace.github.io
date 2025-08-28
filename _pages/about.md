@@ -5,7 +5,7 @@ layout: single
 
 excerpt: <span style="color:gold">*I see myself as a technical person who chose a great project and a great way of doing that project.* <br> <span style="color:darkgrey">Linus Torvalds
 header:
-    overlay_image: /assets/images/about_me_banner.jpg
+    overlay_image: /assets/images/about-me-banner.jpg
     overlay_filter: linear-gradient( rgba(255, 0, 0, 0.5), rgba(106, 90, 205, 0.5))
     caption: "Photo credit: [**TheDigitalArtist**](https://pixabay.com/illustrations/technology-network-digital-5648183)"
     actions:
