@@ -50,9 +50,11 @@ The map is based on my idea to integrate my university life in Cambridge City in
   * Three Dungeon Rooms
   * Throne Room
 
-![image-left](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-1.jpg "I wanted to make a secret entrance to the dungeon but at the end I dind not included it."){: .align-left} ***Figure 1**: Mini Dungeon Map prototype*
+![image-center](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-1.jpg "I wanted to make a secret entrance to the dungeon but at the end I dind not included it."){: style="width:800px" .align-center}
+<p style="text-align:center;"><i><b>Figure 1:</b></i> <i>Mini Dungeon Map prototype</i></p><br>
 
-![image-right](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-2.jpg){: .align-right} ***Figure 2**: Mini Dungeon Map prototype with the final dungeon map*
+![image-center](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-2.jpg){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 2:</b></i> <i>Mini Dungeon Map prototype with the final dungeon map</i></p>
 
 ## ⚔️ Turn-based Combat System
 The combat system is the ancestor of every primordial RPGs: it is a strategic turn-based mechanics that requires a small tactical thinking.
