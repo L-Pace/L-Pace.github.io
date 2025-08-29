@@ -221,6 +221,16 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+    css_class: 'highlight'
+    guess_lang: false
+    default_lang: ''
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
 
 
 # Sass/SCSS
@@ -340,6 +350,6 @@ defaults:
       path: ""
       type: projects  
     values:  
-      layout: single
+      layout: splash
       author_profile: true
       share: false
