@@ -50,7 +50,7 @@ The map is based on my idea to integrate my university life in Cambridge City in
   * Three Dungeon Rooms
   * Throne Room
 
-![image-center](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-1.jpg "I wanted to make a secret entrance to the dungeon but at the end I dind not included it."){: style="width:800px" .align-center}
+![image-center](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-1.jpg "I wanted to make a secret entrance to the dungeon but at the end I dind not include it."){: style="width:800px" .align-center}
 <p style="text-align:center;"><i><b>Figure 1:</b></i> <i>Mini Dungeon Map prototype</i></p><br>
 
 ![image-center](/assets/images/projects/mini-dungeon/mini-dungeon-screenshots/mini-dungeon-map-prototype-2.jpg){: style="width:800px" .align-center} 
