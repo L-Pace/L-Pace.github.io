@@ -6,4 +6,16 @@ search: false
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+// Better code block styling
+.highlight pre {
+  background-color: #252a34;
+  color: #d4d4d4;
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  line-height: 1.4;
+}
+
 @import "minimal-mistakes"; // main partials
