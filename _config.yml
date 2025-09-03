@@ -350,6 +350,8 @@ defaults:
       path: ""
       type: projects  
     values:  
-      layout: splash
+      layout: single
       author_profile: true
       share: false
+      toc: true
+      toc_sticky: true
