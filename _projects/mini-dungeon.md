@@ -1760,17 +1760,47 @@ public class LifeForm
 ```
 - **Polimorphism**: Different item types with shared interfaces
 
-
-
-
 # Learning Outcomes
-## Programming skills developed
+## Programming Skills Developed
+During the development process I have learnt some important skills. 
+- **C# Fundamentals**: solid grasps of language syntax and features 
+- **OOP Principles**: Practical application of object-oriented programming  
+- **Problem Solving**: Breaking down complex game logic into manageable components  
+- **Code Organization**: Structuring code for maintanability and readability 
+
 ## Game Development Insights
+- **Player Experience**: Creating engaging gameplay without graphics
+- **Game Balance**: Mathematical approach to combat and progression systems
+- **User Interface**: Designing intuitive text-based interactions
+- **Game Flow**: Managing transitions between different game states
 
 # What I Learned
+Developing MiniDungeon as a text-based game taught me the importance of solid programming fundamentals. Without graphics to hide behind, every system had to be well-designed and clearly implemented. This project strengthened my understanding of:
+
+- **Clean Code Practices**: Writing readable, maintainable code
+- **Object-Oriented Design**: When and how to use inheritance, encapsulation, and polymorphism
+- **User Experience**: Making complex systems accessible through simple interfaces
+- **Game Mechanics**: How to create engaging gameplay through code logic alone
 
 # Technical Specifications
+- **Language**: <span style="color:Chartreuse">C#</span>
+- **Framework**: <span style="color:Chartreuse">.NET Framework/Core</span>
+- **Platform**: <span style="color:Chartreuse">Windows Console</span>
+- **Development Tools**: <span style="color:Chartreuse">Visual Studio</span>
+- **Version Control**: <span style="color:Chartreuse">Git with GitHub</span>
+- **Architecture**: <span style="color:Chartreuse">Object-oriented console application</span>
 
 # Future Improvements
+If I were to expand this project, I would consider:
+
+- **Save System**: Game state persistence between sessions
+- **More Content**: Additional rooms, enemies, items, and the shop
+- **Enhanced Combat**: Special abilities and magic systems
+- **GUI Version**: Converting to a graphical interface while maintaining core mechanics
 
 # Links
+- [GitHub Repository](https://github.com/L-Pace/MiniDungeon/tree/master) View the complete source code
+- [Download Executable](https://misdur.itch.io/mini-dungeon) Play the game (if compiled version available)
+
+---
+*This project demonstrates my C# programming fundamentals, object-oriented design skills, and ability to create complete game systems using console applications. It showcases clean code practices and thoughtful game design without relying on external graphics or game engines.*
