@@ -129,6 +129,7 @@ gallery:
     title: "Completed quest with reward"
 ---
 
+
 # Project Overview
 ![image-center](/assets/images/projects/mini-dungeon/welcome-to-mini-dungeon.png){: .align-center}
 
@@ -138,7 +139,10 @@ gallery:
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
 **Role**: <span style="color:Chartreuse">Programmer & Game Desisgner</span> \
 **Platform**: <span style="color:Chartreuse">Console Application (Windows)</span> 
- 
+
+# Screenshots & Console Outputs
+{% include gallery caption="MiniDungeon console gameplay showing various game states and interactions" %}
+
 # Key Features
 ## 📜 Handcrafter Dungeon Map and City Map
 The map is based on my idea to integrate my university life in Cambridge City in a small fantasy RPG including my teachers as NPCs, mini-Bosses and final Boss. I created one single map that included several interconnected location:
@@ -1756,8 +1760,7 @@ public class LifeForm
 ```
 - **Polimorphism**: Different item types with shared interfaces
 
-# Screenshots & Console Outputs
-{% include gallery caption="MiniDungeon console gameplay showing various game states and interactions" %}
+
 
 
 # Learning Outcomes
