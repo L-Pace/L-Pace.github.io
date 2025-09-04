@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Custom overrides for Minimal Mistakes (with neon skin)
+   ========================================================================= */
+
+/* Make the page container wider but keep the right sidebar TOC */
+.layout--single .page {
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    max-width: 1400px; // adjust as needed
+  }
+}
+
+/* Widen just the content area */
+.layout--single .page__content {
+  max-width: 950px; // default is ~720px
+}
+
+/* Code blocks span the full width of the content column */
+.layout--single .page__content pre {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Keep TOC sticky on the right */
+.sidebar__right {
+  position: sticky;
+  top: 6rem; // adjust if your header/nav is taller
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #ff4081; // adjust color
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  z-index: 9999;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
