@@ -6,6 +6,7 @@ search: false
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 // Better code block styling
 .highlight pre {
@@ -17,5 +18,3 @@ search: false
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   line-height: 1.4;
 }
-
-@import "minimal-mistakes"; // main partials
