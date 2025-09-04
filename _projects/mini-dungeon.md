@@ -1,6 +1,6 @@
 ---
-title: <span style="color:Chartreuse">**Mini Dungeon**
-excerpt: <span style="color:azure">*A classic text-based RPG console game featuring dungeon exploration, combat mechanics, and progression based on items*
+title: "**Mini Dungeon**"
+excerpt: "*A classic text-based RPG console game featuring dungeon exploration, combat mechanics, and progression based on items*"
 header:
     teaser: /assets/images/projects/mini-dungeon/welcome-to-mini-dungeon.png
     overlay_image: /assets/images/projects/mini-dungeon/mini-dungeon-project-banner.jpg
