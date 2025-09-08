@@ -51,6 +51,8 @@ gallery:
       image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-screenshot-5.png
       alt: "Loading Screen"
       title: "Loading Screen"
+
+published: false
 ---
 # Project Overview
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-thumb.png){: .align-center}
