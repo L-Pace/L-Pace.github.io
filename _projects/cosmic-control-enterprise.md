@@ -4,7 +4,7 @@ excerpt: "A puzzle game inspired from *'Please, don't touch anything!'* and the 
 header:
     teaser: /assets/images/projects/cosmic-control-enterprises/cce-thumb.png
     overlay_image: /assets/images/projects/cosmic-control-enterprises/cce-banner.jpg
-    overlay_filter: linear-gradient( rgba(0, 17, 255, 0.5), rgba(162, 0, 255, 0.5))
+    overlay_filter: linear-gradient( rgba(0, 17, 255, 0.2), rgba(162, 0, 255, 0.5))
     caption: "Photo credit: [**geralt**](https://pixabay.com/illustrations/universe-heaven-stars-space-cosmos-1566159)"
     actions:
         - label: "View on GitHub"
