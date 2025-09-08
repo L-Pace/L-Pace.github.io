@@ -8,11 +8,15 @@ header:
     overlay_image: /assets/images/about-me-banner.jpg
     overlay_filter: linear-gradient( rgba(255, 0, 0, 0.5), rgba(106, 90, 205, 0.5))
     caption: "Photo credit: [**TheDigitalArtist**](https://pixabay.com/illustrations/technology-network-digital-5648183)"
-    actions:
-        - label: "More Info"
-          url: "https://www.brainyquote.com/authors/linus-torvalds-quotes"
+    #actions:
+    #    - label: ""
+    #      url: ""
 
 author_profile: true
+
+toc: true
+toc_sticky: true
+toc_label: "Table of Contents"
 
 ---
 
