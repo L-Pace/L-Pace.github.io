@@ -96,8 +96,7 @@ To access the “Win screen” (see **Figure 5**), players must complete a serie
 <p style="text-align:center;"><i><b>Figure 5:</b></i> <i>Win Screen</i></p><br>
 
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cee-countdown.png){: style="width:800px" .align-center}
-<p style="text-align:center;"><i><b>Figure 6:</b></i> <i>Countdown</i></p><br>
-
+<p style="text-align:center;"><i><b>Figure 6:</b></i> <i>Countdown</i></p>
 
 ### 💥 Lose Condition
 If the player is not able to finish the puzzle within 5 minutes, they will get a Lose Screen (see **Figure 7**).
