@@ -108,6 +108,80 @@ If the player is not able to finish the puzzle within 5 minutes, they will get a
 
 # Technical Implementation
 ## ✨ Interaction System
+The interaction system is based on the ***abstract*** class **Interactable**
+
+```cs
+public abstract class Interactable : MonoBehaviour
+{
+    public bool useEvents;
+
+    // Message displayed to the player when looking at an interactable
+    public string promptMessage;
+
+    /// <summary>
+    /// This function will be called from our player
+    /// </summary>
+    public void BaseInteract()
+    {
+        if (useEvents) 
+        { 
+            GetComponent<InteractionEvent>().onInteract.Invoke();
+        }
+        Interact();
+    } 
+
+    /// <summary>
+    /// This is a template function to be overridden by our subclasses
+    /// </summary>
+    protected virtual void Interact()
+    {
+
+    }
+}
+```
+
+This class is implemented in every class of an interactable. As an example inside of the class **Drawer** the UI is showing a message on screen where the player can interact with the objet. The message can be modified inside of the text prompt of Unity inspector from the script attached to the asset (see **Figure 8**).
+
+```cs
+public class Drawer : Interactable
+{
+    [SerializeField]
+    private GameObject drawer;
+
+    [SerializeField]
+    private GameObject pad;
+
+    private bool isOpen;
+
+    public AudioSource drawerSound;
+
+    private void Start()
+    {
+        
+    }
+
+    protected override void Interact()
+    {
+        ToggleDrawer();
+    }
+
+    private void ToggleDrawer()
+    {
+        isOpen = !isOpen;
+        drawer.GetComponent<Animator>().SetBool("isOpen", isOpen);
+        drawer.GetComponentInChildren<MeshCollider>().enabled = false;
+        pad.GetComponent<MeshCollider>().enabled = true;
+    }
+
+    public void PlaySound()
+    {
+        drawerSound.Play();
+    }
+}
+```
+
+
+
 
 ## 🧾 Menus
 ### 🖥️ Main Menu
@@ -116,7 +190,7 @@ If the player is not able to finish the puzzle within 5 minutes, they will get a
 
 ## ⏱️ The Timer
 
-## 🧠 Main Puzzles Overview 
+## 🧠 Main Puzzles 
 ### 🧩 Keypad Puzzle
 ### 🧩 Pipe Puzzle
 
