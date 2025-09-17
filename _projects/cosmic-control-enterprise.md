@@ -565,7 +565,7 @@ public class GameManager : MonoBehaviour
 ```
 <br>
 
-# Technical Challeges & Solutions
+# Technical Challenges & Solutions
 ## Challenge 1: Pipes are not rotating correctly
 I would like to talk about the issue I had getting the pipes to rotate correctly. I discovered that some of the pipes were not turning precisely 90 degrees. Putting a Debug.Log on the z-axis float I saw that Unity was not being sufficiently accurate with it and that the "if" conditions on lines 27, 57, and 73 of the script were frequently false and failed to trigger the bool to change to true. I found that utilising float numbers frequently results in issues like these. I used Unity's **Mathf.Round()** method to solve the problem, which returns the closest integer number while omitting the decimal section solving this issue.
 
@@ -602,7 +602,7 @@ Developing ***Cosmic Control Enterprises*** thought me the importance of abstrac
 - **Version Control**: <span style="color:Chartreuse">Git with GitHub</span>
 - **Architecture**: <span style="color:Chartreuse">C# Scripting with Unity</span>
 
-# Future Improvments
+# Future Improvements
 If I were to expand this project, I would consider:
 - **Rotating the additional pipes**: The puzzle seemed too simple to me because I was unable to move the additional pipes. Rotating the additional pipes adds a significant challenge for the player, and at this stage, the puzzle can have multiple possible solutions rather than just one.
 - **Alternative Endigs**: alternative endings based on different casualties during the game.
