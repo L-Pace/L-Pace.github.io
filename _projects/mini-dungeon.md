@@ -1511,8 +1511,8 @@ public static Location LocationByID(int id)
 }
 ```
 
-# Technical Challanges & Solutions
-## Challange 1: User Input Validation
+# Technical Challenges & Solutions
+## Challenge 1: User Input Validation
 **Problem**: Handling various user input formats and preventing crashes \
 **Solution**: Created robust input parsing system with error handling and user-friendly feedback
 
@@ -1583,7 +1583,7 @@ private bool GetConfirmation(string playerInput)
     }
 }
 ```
-## Challange 2: Combat Balance
+## Challenge 2: Combat Balance
 **Problem**: Ensuring fair and engaging combat without being too easy or impossible \
 **Solution**: Mathematical balancing of stats and playtesting to fine-tune difficulty progression
 ```cs
