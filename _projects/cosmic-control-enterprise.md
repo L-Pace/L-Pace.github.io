@@ -52,7 +52,7 @@ gallery:
       alt: "Loading Screen"
       title: "Loading Screen"
 
-published: true
+published: false
 ---
 # Project Overview
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-thumb.png){: .align-center}
