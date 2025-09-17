@@ -1774,7 +1774,7 @@ During the development process I have learnt some important skills.
 - **User Interface**: Designing intuitive text-based interactions
 - **Game Flow**: Managing transitions between different game states
 
-# What I Learned
+# What I Learnt
 Developing MiniDungeon as a text-based game taught me the importance of solid programming fundamentals. Without graphics to hide behind, every system had to be well-designed and clearly implemented. This project strengthened my understanding of:
 
 - **Clean Code Practices**: Writing readable, maintainable code
