@@ -22,6 +22,36 @@ tags:
 date: 2024-09-08
 
 gallery:
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-main-menu.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-main-menu.png
+      alt: "Main Menu"
+      title: "Main Menu"
+
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-how-to-play.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-how-to-play.png
+      alt: "How to Play"
+      title: "How to Play Menu"
+
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings.png
+      alt: "Settings Menu"
+      title: "Settings Menu"
+
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings-graphics.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings-graphics.png
+      alt: "Settings Menu - Graphic Settings"
+      title: "Settings Menu - Graphic Settings Detail"
+    
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings-resolutions.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-menu-settings-resolutions.png
+      alt: "Settings Menu - Resolutions"
+      title: "Settings Menu - Resolutions Detail"
+
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-loading-screen.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-loading-screen.png
+      alt: "Loading Screen"
+      title: "Loading Screen"
+
     - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-screenshot-1.png
       image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-screenshot-1.png
       alt: "Rocinante"
@@ -47,13 +77,29 @@ gallery:
       alt: "Interior"
       title: "Interior detail 4"
     
-    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-screenshot-5.png
-      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-screenshot-5.png
-      alt: "Loading Screen"
-      title: "Loading Screen"
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-exterior-1.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-exterior-1.png
+      alt: "Exterior 1"
+      title: "Exterior detail 1"
 
-published: false
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-exterior-2.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-exterior-2.png
+      alt: "Exterior 2"
+      title: "Exterior detail 2"
+    
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-holding-hammer.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-holding-hammer.png
+      alt: "Hammer"
+      title: "Player holding the hammer"
+    
+    - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pad.png
+      image_path: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pad.png
+      alt: "Pad"
+      title: "Pad inside the drawer"
+    
+published: true
 ---
+
 # Project Overview
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-thumb.png){: .align-center}
 *Cosmic Control Enterprises* is a puzzle game set up on *The Expanse* (**James S. A. Corey, 2011**), one of the most well-known science fiction book series adapted into a successful TV show. I attempted to give the player the impression that they were in control of a crucial mission, starting the game inside the room I constructed using the assets pack provided by the university: save the Rocinante’s crew first and preserve humanity's one remaining chance to explore alien worlds and settle habitable planets in the Milky Way and beyond. 
@@ -226,12 +272,6 @@ void Update()
     }
 ```
 
-## 🧾 Menus
-The menus are managed by the **Scene Manager**
-### 🖥️ Main Menu
-### 🎮 Text Tutorial
-### 🔧 Settings Menu
-
 ## ⏱️ The Timer
 The timer is a simple script that start the countdown when the player starts the game.
 
@@ -277,20 +317,19 @@ public class Timer : MonoBehaviour
 
 ## 🧠 Main Puzzles 
 ### 🧩 Keypad Puzzle
-The player can interact with the keypad right from the beginning of the game (see **Figure 10** ).
+The player can interact with the keypad (see **Figure 10**) right from the beginning of the game (see **Figure 11** ).
+
+
+![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-safe-keypad.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 10:</b></i> <i>The Keypad</i></p><br>
 
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-safe.png){: style="width:800px" .align-center} 
-<p style="text-align:center;"><i><b>Figure 10:</b></i> <i>The Safe</i></p>
+<p style="text-align:center;"><i><b>Figure 11:</b></i> <i>The Safe</i></p>
 
+The keypad is a script that verifies the player's input number; if the numbers are correct, a brief animation will play and the safe will open revealing a hammer that the player can use to break the seals (see **Figure 12**).
 
-The keypad is a script that verifies the player's input number; if the numbers are correct, a brief animation will play and the safe will open revealing a hammer that the player can use to break the seals. Indeed, the pipe puzzle is hidden beneath the panel that can be moved when the seals are broken, so doing this is essential to moving on to the next puzzle (see **Figure**).
-
-![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-panel-seals.png){: style="width:800px" .align-center} 
-<p style="text-align:center;"><i><b>Figure :</b></i> <i>Pipe Panel Seals</i></p>
-
-![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pipe-puzzle-panel.png){: style="width:800px" .align-center} 
-<p style="text-align:center;"><i><b>Figure :</b></i> <i>Pipe Panel</i></p>
-
+![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-hammer-safe.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 12:</b></i> <i>The Hammer in the safe</i></p>
 
 ```cs
 public class Keypad : MonoBehaviour
@@ -331,7 +370,6 @@ public class Keypad : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
     }
-
 
     public void PlaySound()
     {
@@ -393,21 +431,81 @@ public class Keypad : MonoBehaviour
     }
 }
 ```
-After pulling the first lever, a screen appears with a warning message, providing all the errors that occurred during the ship's attempt to launch into space. There is also a hint on what the right password for the keypad is. One of the numbers in the Fibonacci sequence (**6765**) is the correct password. To make it easier for the player to understand, I also added three more sequence numbers to the clue.
 
-### 🧩 Pipe Puzzle
+After pulling the first lever, a screen appears with a warning message, providing all the errors that occurred during the ship's attempt to launch into space. There is also a hint on what the right password for the keypad is (see **Figure 3**). One of the numbers in the Fibonacci sequence (**6765**) is the correct password. To make it easier for the player to understand, I also added three more sequence numbers to the clue (see **Figure 4**).
+
+### 🧩 Breaking the Seals Puzzle
+
+The pipe puzzle is hidden beneath the panel that can be moved when the seals are broken, so doing this is essential to moving on to the next puzzle (see **Figure 13-14**).
+
+![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-panel-seals.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 13:</b></i> <i>Pipe Panel Seals</i></p>
+
+![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pipe-puzzle-panel.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 14:</b></i> <i>Pipe Panel</i></p>
+
+```cs
+public class PipesPanel : Interactable
+{
+    [SerializeField]
+    private GameObject pipesPanelMovable;
+
+    [SerializeField]
+    private GameObject pipesInteractable;
+
+    private bool areSealsBroken;
+
+    public AudioSource movingThePanelSound;
+
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        pipesPanelMovable.GetComponentInChildren<BoxCollider>().enabled = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    protected override void Interact()
+    {
+        TogglePanel();
+    }
+
+    private void TogglePanel()
+    {
+        areSealsBroken = !areSealsBroken;
+        pipesPanelMovable.GetComponent<Animator>().SetBool("areSealsBroken", areSealsBroken);
+        pipesPanelMovable.GetComponent<BoxCollider>().enabled = true;
+        pipesInteractable.GetComponent<BoxCollider>().enabled = true;
+        pipesPanelMovable.GetComponent<BoxCollider>().enabled = false;
+
+    }
+
+    public void PlaySound()
+    {
+        movingThePanelSound.Play();
+    }
+}
+```
+
+### 🧩 Pipes Puzzle
 The pipes puzzle's development process is very interesting. To solve the challenge, the player must rotate a few pipes to restart the malfunctioning cooling system.
-In an attempt to trick the player, I added extra pipes, but because of the addition of the new Unity system input, I had trouble rotating them by pressing the left mouse button. I decided to leave them in place as a result (see **Figure 11**).
+In an attempt to trick the player, I added extra pipes, but because of the addition of the new Unity system input, I had trouble rotating them by pressing the left mouse button. I decided to leave them in place as a result (see **Figure 15**).
 
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pipe-shuffled.png){: style="width:800px" .align-center} 
-<p style="text-align:center;"><i><b>Figure 11:</b></i> <i>Shuffled Pipe Puzzle</i></p>
+<p style="text-align:center;"><i><b>Figure 15:</b></i> <i>Shuffled Pipe Puzzle</i></p>
 
-A Physics 2D Raycaster and a script are attached to each pipe that is a part of the right solution to this puzzle. The script rotates the pipes 90 degrees on the z axis each time the player presses the left mouse button (see **Figure 12**). 
+A Physics 2D Raycaster and a script are attached to each pipe that is a part of the right solution to this puzzle. The script rotates the pipes 90 degrees on the z axis each time the player presses the left mouse button (see **Figure 16**). 
 
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-pipe-solved.png){: style="width:800px" .align-center} 
-<p style="text-align:center;"><i><b>Figure 12:</b></i> <i>Solved Pipe Puzzle</i></p>
+<p style="text-align:center;"><i><b>Figure 16:</b></i> <i>Solved Pipe Puzzle</i></p>
 
-I was able to create the rotation of the pipes because of the Unity interface, *IPointerMouseDown*. The script in the Start function shows us that the pipes randomly rotate each time the player launches a new game. The player can rotate the pipe that the mouse is pointing at with each press of the left mouse button thanks to the **OnPointerDown()** function, which accepts an event from the mouse as argument (see Figure 11 - 12).
+I was able to create the rotation of the pipes because of the Unity interface, *IPointerMouseDown*. The script in the Start function shows us that the pipes randomly rotate each time the player launches a new game. The player can rotate the pipe that the mouse is pointing at with each press of the left mouse button thanks to the **OnPointerDown()** function, which accepts an event from the mouse as argument.
 
 ```cs
 public class MovablePipes : MonoBehaviour, IPointerDownHandler
@@ -611,6 +709,7 @@ If I were to expand this project, I would consider:
 - **Random Events**: To keep the player from completing the puzzle, introduce a few random events into the game. Having a second console with buttons to change the room's pressure or temperature over time, rather than just once, forces the player to leave any activity or attempt to complete the puzzles in order to solve these random events.
 - **UI Improvement**: the ability to highlight an interactable when the player points at them.
 - **Player Movement**: ability to move the character to explore the environment and find more items to interact with.
+- **Save System**: Game state persistence between sessions
 
 # External Assets
 - [Synty Polygon - Sci-Fi Space Pack](https://syntystore.com/en-gb/products/polygon-sci-fi-space-pack?_pos=2&_sid=12c8ce5a0&_ss=r)
@@ -645,3 +744,6 @@ Four Quarters team (2015) *Please, don’t touch anything!* Available at: [Pleas
 # Links
 - [GitHub Repository](https://github.com/L-Pace/cosmic-control-enterprises) View the complete source code
 - [Download Executable](https://misdur.itch.io/cosmic-control-enterprises) Play the game (if compiled version available) 
+
+---
+*This project shows my Unity, C# scripting, and game design skills. It showcases my ability to produce a finished product within the limited time due the deadline with limited low-poly assets for the game environment. Therefore, clean code practice.*
