@@ -1,6 +1,6 @@
 ---
 title: "**Cosmic Control Enterprises**"
-excerpt: "A puzzle game inspired from *'Please, don't touch anything!'* and the book series 'The Expanse'"
+excerpt: "A puzzle game inspired from *'Please, don't touch anything!'* and the book series *'The Expanse'*"
 header:
     teaser: /assets/images/projects/cosmic-control-enterprises/cce-thumb.png
     overlay_image: /assets/images/projects/cosmic-control-enterprises/cce-banner.jpg
