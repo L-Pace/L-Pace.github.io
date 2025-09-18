@@ -8,7 +8,7 @@ header:
     caption: "Photo credit: [**Tobias_ET**](https://pixabay.com/illustrations/matrix-computer-hacker-code-2354492)"
     actions:
         - label: "View on GitHub"
-          url: "https://github.com/L-Pace/MiniDungeon/tree/master"
+          url: "https://github.com/L-Pace/MiniDungeon"
         - label: "Download"
           url: "https://misdur.itch.io/mini-dungeon"
           
@@ -1799,7 +1799,7 @@ If I were to expand this project, I would consider:
 - **GUI Version**: Converting to a graphical interface while maintaining core mechanics
 
 # Links
-- [GitHub Repository](https://github.com/L-Pace/MiniDungeon/tree/master) View the complete source code
+- [GitHub Repository](https://github.com/L-Pace/MiniDungeon) View the complete source code
 - [Download Executable](https://misdur.itch.io/mini-dungeon) Play the game (if compiled version available)
 
 ---
