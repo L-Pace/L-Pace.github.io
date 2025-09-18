@@ -19,7 +19,7 @@ tags:
     - Puzzle Game
     - Indie Games
 
-date: 2024-09-08
+date: 2024-09-18
 
 gallery:
     - url: /assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-main-menu.png
