@@ -51,6 +51,10 @@ This project is one of the assignments for university on my attempt to create a 
 
 # Screenshots
 {% include gallery caption="Some screenshots of FMOD" %}
+
+# Showcase Video
+{% include video id="GKmEGeXDGeE" provider="youtube" %}
+
  
 # Introduction
 Audio Programming is a fundamental aspect of the computer games industry, playing an important
