@@ -6,8 +6,8 @@ header:
     overlay_image: /assets/images/projects/audio-programming/ap-banner.png
     overlay_filter: linear-gradient( rgba(5, 5, 5, 0.7), rgba(39, 37, 161, 0.7))
     actions:
-        - label: "Download"
-          url: ""
+        - label: "Watch on YouTube"
+          url: "https://youtu.be/GKmEGeXDGeE"
           
 tags:
     - Unreal Engine 5
