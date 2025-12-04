@@ -9,7 +9,7 @@ header:
         - label: "View on GitHub"
           url: "https://github.com/L-Pace/the-quantum-market"
         - label: "Download"
-          url: ""
+          url: "https://misdur.itch.io/the-quantum-market"
 
 tags:
     - Unity
@@ -47,7 +47,7 @@ gallery:
       image_path: /assets/images/projects/quantum-market/screenshots/name-generator-inspector.png
       alt: "Name Generator ScriptableObject in Unity Inspector"
       title: "Name Generator ScriptableObject in Unity Inspector"
-      
+
     - url: /assets/images/projects/quantum-market/screenshots/name-generator-config-inspector.png
       image_path: /assets/images/projects/quantum-market/screenshots/name-generator-config-inspector.png
       alt: "Name Generator Config ScriptableObject in Unity Inspector"
