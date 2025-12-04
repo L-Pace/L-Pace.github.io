@@ -295,30 +295,34 @@ The weighted pattern system enables controlled randomization, while separate wor
 - **Debugging**: Inspector-visible data makes it simple to track and modify values during development
 
 # Technical Challenges & Solutions
-## Challenge 1 - Managing ScriptableObject Dependencies
+## Challenge 1 
+### Managing ScriptableObject Dependencies
 
-**Problem**: QuantumCardData depends on NameGenerator, which depends on NameGeneratorConfig - creating a dependency chain requiring careful setup
+**Problem**: QuantumCardData depends on NameGenerator, which depends on NameGeneratorConfig - creating a dependency chain requiring careful setup.
 
 **Solution**: Implemented robust error handling and validation checks to ensure all references are properly assigned before runtime. Created clear documentation showing the dependency hierarchy and proper setup procedures.
 
-## Challenge 2 - Card Display System
-**Problem**: Cards were not displaying properly on the main canvas at game start despite correct instantiation logic
+## Challenge 2
+### Card Display System
+**Problem**: Cards were not displaying properly on the main canvas at game start despite correct instantiation logic.
 
 **Solution**: Restructured the card prefab to include a button component with an image overlay and explicitly set the localScale with Alpha 1. Ensured proper canvas scaling configuration in the CreateCard() function to prevent prefab settings from overriding scene canvas settings.
 
-## Challenge 3 - Runtime Data Management
-**Problem**: Balancing flexibility for dynamic card creation while maintaining data integrity of template cards
+## Challenge 3
+### Runtime Data Management
+**Problem**: Balancing flexibility for dynamic card creation while maintaining data integrity of template cards.
 
 **Solution**: Implemented a system that separates template data (stored in ScriptableObjects) from instance data (runtime card state). The <span style="color:Red">isPurchased</span> boolean enables runtime state tracking without compromising underlying template data.
 
-## Challenge 4 - Procedural Name Generation Balance
-**Problem**: Ensuring generated card names were meaningful and not random gibberish
+## Challenge 4 
+### Procedural Name Generation Balance
+**Problem**: Ensuring generated card names were meaningful and not random gibberish.
 
 **Solution**: Developed a pattern-based generation system with weighted randomization. Separated word lists into prefixes, cores, and suffixes, allowing for controlled variety while maintaining coherent naming conventions.
 
 # Code Architecture & Design Patterns
 ## Design Patterns Implemented
-**Strategy Pattern**: Different card generation strategies based on element types and rarity levels
+**Strategy Pattern**: Different card generation strategies based on element types and rarity levels.
 
 **Template Method Pattern**: Base card creation process with customizable steps for different card types
 
