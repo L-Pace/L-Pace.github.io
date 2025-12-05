@@ -131,24 +131,21 @@ gallery:
 
 
 # Project Overview
-![image-center](/assets/images/projects/mini-dungeon/welcome-to-mini-dungeon.png){: .align-center}
+
+{% include video id="Q4FN2FLti04" provider="youtube" %}
 
 *Mini Dungeon* is a text-based RPG built as a C# console application, inspired by traditional dungeon crawler games. This project demonstrates my programming fundamentals, object-oriented design principles, and ability to create engaging gameplay mechanics through code alone.  
 
 **Development Time**: <span style="color:Chartreuse">2 months</span> \
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
-**Role**: <span style="color:Chartreuse">Programmer & Game Desisgner</span> \
+**Role**: <span style="color:Chartreuse">Programmer & Game Designer</span> \
 **Platform**: <span style="color:Chartreuse">Console Application (Windows)</span> 
 
 # Screenshots & Console Outputs
 {% include gallery caption="MiniDungeon console gameplay showing various game states and interactions" %}
 
-# Showcase Video
-
-{% include video id="Q4FN2FLti04" provider="youtube" %}
-
 # Key Features
-## 📜 Handcrafter Dungeon Map and City Map
+## 📜 Handcrafted Dungeon Map and City Map
 The map is based on my idea to integrate my university life in Cambridge City in a small fantasy RPG including my teachers as NPCs, mini-Bosses and final Boss. I created one single map that included several interconnected location:
 
 * Home
@@ -172,7 +169,7 @@ The map is based on my idea to integrate my university life in Cambridge City in
 
 ## ⚔️ Turn-based Combat System
 The combat system is the ancestor of every primordial RPGs: it is a strategic turn-based mechanics that requires a small tactical thinking.
-The damage calculation is a mathematical combat system with attack, defence, and health system.
+The damage calculation is a mathematical combat system with attack, defense, and health system.
 
 ```cs
 private static void PlayerTurn()
@@ -289,7 +286,7 @@ private void WarriorClassModifier()
 }
 ```
 ### Character Progression
-For the progression of the character I chose to base it on armor and weapon equiped.
+For the progression of the character I chose to base it on armor and weapon equipped.
 
 ```cs
 public class Weapon : Item
@@ -693,11 +690,11 @@ private static void Intro()
     Console.WriteLine("Narrator: I have no idea what they were talking about, to be honest.");
     Console.ReadKey();
     Console.WriteLine("Narrator: We were desperate because Cambridge Town was taking over all the land ");
-    Console.WriteLine("          that sorrounded us and we needed help.");
+    Console.WriteLine("          that surrounded us and we needed help.");
     Console.ReadKey();
-    Console.WriteLine("Narrator: What a mistake. We trusted them and we gave them the Mini Dungeon for refrubishment.");
+    Console.WriteLine("Narrator: What a mistake. We trusted them and we gave them the Mini Dungeon for refurbishment.");
     Console.ReadKey();
-    Console.WriteLine("Narrator: Yes, they refrubished but they call their troupes for help: a bunch of ");
+    Console.WriteLine("Narrator: Yes, they refurbished but they call their troupes for help: a bunch of ");
     Console.WriteLine("          goblin and troll that now infesting the forest and the Ancient Lake.....");
     Console.ReadKey();
     Console.WriteLine("Narrator: Ah wait, Viktor changed even the name of our sacred places.");
@@ -996,7 +993,7 @@ public class Player : LifeForm
     /// <param name="classMinimumProtection">Base Minimum Damage</param>
     /// <param name="classMaximumProtection">Base Maximum Damage</param>
     /// <param name="gold">Money bag of the player</param>
-    /// <param name="experiencePoints">Current exprience points</param>
+    /// <param name="experiencePoints">Current experience points</param>
     /// <param name="level"></param>
     public Player(int currentHitPoints,
                   int maximumHitPoints,
@@ -1099,7 +1096,7 @@ public const int NPC_ID_THE_HERMIT_IN_THE_WOODS = 3;
 public const int NPC_ID_CENK_THE_NERD_SHOPKEEPER = 4;
 
 public const int QUEST_ID_CLEAR_THE_FOREST = 1;
-public const int QUEST_ID_ANTIDODE = 2;
+public const int QUEST_ID_ANTIDOTE = 2;
 public const int QUEST_ID_KILL_VIKTOR = 3;
 public const int QUEST_ID_THE_SPELL_BOOK_OF_REPAIR = 4;
 
@@ -1228,7 +1225,7 @@ private static void PopulateNPC()
     NPC ian = new NPC(
         NPC_ID_IAN,
         " Ian, the Alchemist",
-        " Hello traveller. I'm Ian, the Alchemist.\n I have a job for ya. I'm preparing an antidote for my dog that by\n accident ate snake chocolate.\n I can't leave home right now and I need `3 trolls eye` to complete the\n antidote.\n I saw some trolls just around the Red Lake.\n If you'll help me I'll give you the `key` that open the `Cabin in the\n woods`, just South of the Red Forest and 20 gold.",
+        " Hello traveler. I'm Ian, the Alchemist.\n I have a job for ya. I'm preparing an antidote for my dog that by\n accident ate snake chocolate.\n I can't leave home right now and I need `3 trolls eye` to complete the\n antidote.\n I saw some trolls just around the Red Lake.\n If you'll help me I'll give you the `key` that open the `Cabin in the\n woods`, just South of the Red Forest and 20 gold.",
         "I need the ingredients ASAP or my dog will make a mess for at least 3 days in a row!",
         " Thank you for your help!\n This is your reward and good luck for your adventure!",
         "I'm quite busy preparing the antidote for my dog! Thank you again for your help! See you around!");
@@ -1243,18 +1240,18 @@ private static void PopulateNPC()
 
     NPC hermit = new NPC(
         NPC_ID_THE_HERMIT_IN_THE_WOODS,
-        " Dominuque, the hermit in the woods",
-        " Hello Traveller.\n The situation inside of Mini Dungeon is getting worse day by day.\n Viktor One Foot is sitting on the throne inside of the last room of\n the dungeon and his command is to take over of our amazing city:\n Compass House.\n Unfortunately the dungeon's infested by goblins, trolls and 2 Viktor's\n guard: `Oliver The Chosen One` and `Luke The Gentle Giant`.\n He needs to be stopped ASAP to finally create our `New World`.\n Bring me Viktor's `toe`.\n Let's say that I'll give you 500 gold for the `toe` and..... you'll\n see! Good Luck!!",
+        " Dominique, the hermit in the woods",
+        " Hello traveler.\n The situation inside of Mini Dungeon is getting worse day by day.\n Viktor One Foot is sitting on the throne inside of the last room of\n the dungeon and his command is to take over of our amazing city:\n Compass House.\n Unfortunately the dungeon's infested by goblins, trolls and 2 Viktor's\n guard: `Oliver The Chosen One` and `Luke The Gentle Giant`.\n He needs to be stopped ASAP to finally create our `New World`.\n Bring me Viktor's `toe`.\n Let's say that I'll give you 500 gold for the `toe` and..... you'll\n see! Good Luck!!",
         " Where is Viktor's toe? Still on his foot? Go back in the Mini Dungeon and defeat him!!!",
-        "Congratulation my new Lord! Now we'll rebuild our new world! The Mini Dungeon is now in our hands and you'll be my muppet! Now you're in my dominion! Death and diseases will be upon Compass House, Cambridge Town and all the lands surrounding us.........ehm of course I'm joking. We'll refubrish the Mini Dungeon and we'll open again the museum.",
+        "Congratulation my new Lord! Now we'll rebuild our new world! The Mini Dungeon is now in our hands and you'll be my muppet! Now you're in my dominion! Death and diseases will be upon Compass House, Cambridge Town and all the lands surrounding us.........ehm of course I'm joking. We'll refurbish the Mini Dungeon and we'll open again the museum.",
         "Dominique disappeared and he left this message:\n `I'm away for holidays in New Castle`. I'll be back in few years!");
 
     NPC cenk = new NPC(
         NPC_ID_CENK_THE_NERD_SHOPKEEPER,
         " Cenk, the Nerd Shopkeeper",
-        " OMG!\n Finally somebody is coming here to help me out.\n The King Troll and The King Goblin raided the shop few days ago.\n They stole everything and trushed the place! I tried to get\n back my staff but, I couldn't defeat the King Troll!\n He was using my stuff! I've seen even regular trolls and goblins\n with armors and weapons from the shop!\n I need you help and in exchange you can keep some of the equipment!\n Bring me back my 'Spell Book of Repair'!",
+        " OMG!\n Finally somebody is coming here to help me out.\n The King Troll and The King Goblin raided the shop few days ago.\n They stole everything and trashed the place! I tried to get\n back my staff but, I couldn't defeat the King Troll!\n He was using my stuff! I've seen even regular trolls and goblins\n with armors and weapons from the shop!\n I need you help and in exchange you can keep some of the equipment!\n Bring me back my 'Spell Book of Repair'!",
         " I don't want to make you rush but, without the book it will take\n me a decade to repair everything!",
-        " Thank you so much for your help, Traveller",
+        " Thank you so much for your help, traveler",
         " Cenk is repairing the shop! Will open soon!");
 
     NPCs.Add(ian);
@@ -1280,7 +1277,7 @@ private static void PopulateQuests()
     clearTheForest.RewardItem = ItemByID(ITEM_ID_HEALING_POTION);
 
     Quest antidote = new Quest(
-        QUEST_ID_ANTIDODE,
+        QUEST_ID_ANTIDOTE,
         " The Eye of Madness",
         " Ian, The alchemist, asked me to help him with antidote for his dog.", 20, 20);
 
@@ -1330,7 +1327,7 @@ private static void PopulateLocations()
 
     Location ianHouse = new Location(LOCATION_ID_IAN_HOUSE, "Ian, The Alchemist, house", "This amazing house is made by thousends of\n boardgames in limited edition. You can see even\n a Settles of Catan made by gold with a signature:\n from Viktor");
     ianHouse.NpcLivingHere = NPCbyID(NPC_ID_IAN);
-    ianHouse.QuestAvailableHere = QuestbyID(QUEST_ID_ANTIDODE);
+    ianHouse.QuestAvailableHere = QuestbyID(QUEST_ID_ANTIDOTE);
 
     Location redLake = new Location(LOCATION_ID_THE_RED_LAKE, "The Red Lake", "An amazing lake full of life! Dangerous place\n without any armor!!");
     redLake.MonsterLivingHere = MonsterByID(MONSTER_ID_TROLL);
@@ -1664,13 +1661,15 @@ public class Monster : LifeForm
 - **Action Execution**: Performs game actions and update state accordingly
 
 ## Data Structure Design
-***Game Structure*** \
-├── *Static World Class* \
-├── *Main Class (Main game loop)* \
-├── *Player (Character stats & inventory)* \
-├── *Map (Room connections)* \
-├── *Combat System (Turn-based fighting)* \
-└── *Inventory System (Items & equipment)*
+```bash
+Game Structure: 
+├── Static World Class 
+├── Main Class (Main game loop) 
+├── Player (Character stats & inventory)
+├── Map (Room connections)
+├── Combat System (Turn-based fighting)
+└── Inventory System (Items & equipment)
+```
 
 ## Game States
 1. **Main Menu**: Game Start
