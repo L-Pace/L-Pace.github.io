@@ -58,7 +58,8 @@ published: true
 ---
 
 # Project Overview
-![image-center](/assets/images/projects/quantum-market/qm-thumbnail.png){: .align-center}
+
+{% include video id="vEYRFziA-ms " provider="youtube" %}
 
 The Quantum Market is a card-based game developed as my final university project for the Major Project for Games module at Anglia Ruskin University. This project demonstrates advanced implementation of Unity's ScriptableObjects architecture for managing game data and procedural content generation in a clean, maintainable, and designer-friendly way.
 The game features a dynamic shop system where players can purchase procedurally generated cards with unique properties. Each card is created using a system of interconnected ScriptableObjects that manage card data, name generation, and market mechanics - showcasing modern game development architecture patterns.
@@ -67,6 +68,10 @@ The game features a dynamic shop system where players can purchase procedurally 
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
 **Role**: <span style="color:Chartreuse">Programmer & Game Desisgner</span> \
 **Platform**: <span style="color:Chartreuse">Unity</span> 
+
+# Screenshots
+
+{% include gallery caption="Some screenshots from Unity of The Quantum Market" %}
 
 # Research Focus
 This project was developed as part of an investigation into how ScriptableObjects can be effectively implemented in Unity game development, with particular focus on:
@@ -383,13 +388,6 @@ This project contributes to the understanding of ScriptableObjects in Unity thro
 **Design Patterns**: Showcasing how traditional design patterns apply to Unity's component-based architecture
 
 The research revealed that while Unity powers many successful games, technical documentation specifically about ScriptableObjects implementation is limited. This project helps fill that gap by providing a well-documented, practical example.
-
-# Screenshots & Gameplay
-
-{% include gallery caption="Some screenshots from Unity of The Quantum Market" %}
-
-
-{% include video id="vEYRFziA-ms " provider="youtube" %}
 
 # Future Improvements
 If I were to expand this project, I would implement:
