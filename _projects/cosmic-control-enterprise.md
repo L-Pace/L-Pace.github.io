@@ -107,7 +107,7 @@ It is obvious that the game *Please, don't touch anything!* (**Four Quarters tea
 
 **Development Time**: <span style="color:Chartreuse">3 weeks</span> \
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
-**Role**: <span style="color:Chartreuse">Programmer & Game Desisgner</span> \
+**Role**: <span style="color:Chartreuse">Programmer & Game Designer</span> \
 **Platform**: <span style="color:Chartreuse">Unity</span> 
 
 # Screenshots
@@ -242,7 +242,7 @@ public class InteractionEvent : MonoBehaviour
 ![image-center](/assets/images/projects/cosmic-control-enterprises/cce-screenshots/cce-drawer-inspector-interaction-event.png){: style="width:800px" .align-center} 
 <p style="text-align:center;"><i><b>Figure 9:</b></i> <i>Unity Inspector on Interaction Event Script</i></p>
 
-Finally, for every interactable objects in the game the class **PlayerInteract** has the *Update* method that is checking if the object is interactable, using a Raycast, returning the prompt message, and invokes the abstract method in the **Interactable** class that is been overidden in the **Drawer** class for instance. This is triggering the animation that allows the player to open the drawer and interact with the pad inside of it.
+Finally, for every interactable objects in the game the class **PlayerInteract** has the *Update* method that is checking if the object is interactable, using a Raycast, returning the prompt message, and invokes the abstract method in the **Interactable** class that is been overridden in the **Drawer** class for instance. This is triggering the animation that allows the player to open the drawer and interact with the pad inside of it.
 
 ```cs
 void Update()
@@ -665,7 +665,7 @@ public class GameManager : MonoBehaviour
 
 # Technical Challenges & Solutions
 ## Challenge 1: Pipes are not rotating correctly
-I would like to talk about the issue I had getting the pipes to rotate correctly. I discovered that some of the pipes were not turning precisely 90 degrees. Putting a Debug.Log on the z-axis float I saw that Unity was not being sufficiently accurate with it and that the "if" conditions on lines 27, 57, and 73 of the script were frequently false and failed to trigger the bool to change to true. I found that utilising float numbers frequently results in issues like these. I used Unity's **Mathf.Round()** method to solve the problem, which returns the closest integer number while omitting the decimal section solving this issue.
+I would like to talk about the issue I had getting the pipes to rotate correctly. I discovered that some of the pipes were not turning precisely 90 degrees. Putting a Debug.Log on the z-axis float I saw that Unity was not being sufficiently accurate with it and that the "if" conditions on lines 27, 57, and 73 of the script were frequently false and failed to trigger the bool to change to true. I found that utilizing float numbers frequently results in issues like these. I used Unity's **Mathf.Round()** method to solve the problem, which returns the closest integer number while omitting the decimal section solving this issue.
 
 ```cs
 if (Mathf.Round(transform.eulerAngles.z) == correctRotation[0]
@@ -676,9 +676,9 @@ if (Mathf.Round(transform.eulerAngles.z) == correctRotation[0]
 
 # Learning Outcomes
 ## Programming Skills Developed
-During the development process I have learnt some impotant skills.
-- **Interact System**: The Raycast interaction approach that makes use of the many interactables has truly satisfied me. In this way, additional interactables can be easily added to the game, speeding up the de-velopment process. The player can precisely point at an object to receive a message on the screen on how to interact with it, which reduces the learning curve associated with the controls.
-- **Abstract Methods**: fundametals to create a scalable and maintainable code base 
+During the development process I have learnt some important skills.
+- **Interact System**: The Raycast interaction approach that makes use of the many interactables has truly satisfied me. In this way, additional interactables can be easily added to the game, speeding up the development process. The player can precisely point at an object to receive a message on the screen on how to interact with it, which reduces the learning curve associated with the controls.
+- **Abstract Methods**: fundamentals to create a scalable and maintainable code base 
 
 ## Game Development Insight
 - **Player Experience**: Creating an engaging experience through low-poly graphics and appetible music and SFX
@@ -686,7 +686,7 @@ During the development process I have learnt some impotant skills.
 - **Game Flow**: with the aid of sound and visual cue the player can experience a nice feed back of their progresses
 
 ## What I Learnt
-Developing ***Cosmic Control Enterprises*** thought me the importance of abstract classes and how useful is in terms of maintenability of the code. This project strengthened my understanding of:
+Developing ***Cosmic Control Enterprises*** thought me the importance of abstract classes and how useful is in terms of maintainability of the code. This project strengthened my understanding of:
 
 - **Clean Code Practices**: Writing readable, maintainable code 
 - **Unity Inspector**: Implementing the scripts that uses Unity Inspector (as an example changing the safe code not in the script made testing easier)
