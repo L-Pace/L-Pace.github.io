@@ -21,10 +21,10 @@ tags:
 date: 2023-04-25
 
 gallery:
-    - url: /assets/images/projects/audio-programming/Screenshots/screenshot-1.png
-      image_path: /assets/images/projects/audio-programming/Screenshots/screenshot-1.png
-      alt: "Logic Track - Grass"
-      title: "Logic Track - Grass"
+    - url: /assets/images/projects/audio-programming/Screenshots/Picture1.png
+      image_path: /assets/images/projects/audio-programming/Screenshots/Picture1.png
+      alt: "Artefact with 3 different kinds of surfaces and 2 ambience cues"
+      title: "Artefact with 3 different kinds of surfaces and 2 ambience cues"
 
     - url: /assets/images/projects/audio-programming/Screenshots/screenshot-2.png
       image_path: /assets/images/projects/audio-programming/Screenshots/screenshot-2.png
@@ -36,11 +36,18 @@ gallery:
       alt: "Big Room Int"
       title: "Big Room Int"
 
-published: true
+    - url: /assets/images/projects/audio-programming/Screenshots/screenshot-1.png
+      image_path: /assets/images/projects/audio-programming/Screenshots/screenshot-1.png
+      alt: "Logic Track - Grass"
+      title: "Logic Track - Grass"
+
+published: false
 ---
 
 # Project Overview
-![image-center](/assets/images/projects/audio-programming/Screenshots/Picture1.png){: .align-center}
+
+{% include video id="GKmEGeXDGeE" provider="youtube" %}
+
 This project is one of the assignments for university on my attempt to create a prototype on audio programming using Unreal Engine 5.2 and FMOD Studio. The prototype showcases the integration of the middleware in the graphic engine. 
 
 **Development Time**: <span style="color:Chartreuse">2 months</span> \
@@ -52,10 +59,6 @@ This project is one of the assignments for university on my attempt to create a 
 # Screenshots
 {% include gallery caption="Some screenshots of FMOD" %}
 
-# Showcase Video
-{% include video id="GKmEGeXDGeE" provider="youtube" %}
-
- 
 # Introduction
 Audio Programming is a fundamental aspect of the computer games industry, playing an important
 role in enhancing the immersive experience of interactive virtual environments. In this academic
