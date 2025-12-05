@@ -52,7 +52,7 @@ This project is one of the assignments for university on my attempt to create a 
 
 **Development Time**: <span style="color:Chartreuse">2 months</span> \
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
-**Role**: <span style="color:Chartreuse">Programmer & Game Desisgner</span> \
+**Role**: <span style="color:Chartreuse">Programmer & Game Designer</span> \
 **Platform**: <span style="color:Chartreuse">Unreal Engine 5.2</span> \
 **Middleware**: <span style="color:Chartreuse">FMOD Studio</span>
 
