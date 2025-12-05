@@ -143,6 +143,10 @@ gallery:
 # Screenshots & Console Outputs
 {% include gallery caption="MiniDungeon console gameplay showing various game states and interactions" %}
 
+# Showcase Video
+
+{% include video id="Q4FN2FLti04" provider="youtube" %}
+
 # Key Features
 ## 📜 Handcrafter Dungeon Map and City Map
 The map is based on my idea to integrate my university life in Cambridge City in a small fantasy RPG including my teachers as NPCs, mini-Bosses and final Boss. I created one single map that included several interconnected location:
@@ -1800,7 +1804,9 @@ If I were to expand this project, I would consider:
 
 # Links
 - [GitHub Repository](https://github.com/L-Pace/MiniDungeon) View the complete source code
-- [Download Executable](https://misdur.itch.io/mini-dungeon) Play the game (if compiled version available)
+- Play the game
+
+<iframe frameborder="0" src="https://itch.io/embed/3843940" width="552" height="167"><a href="https://misdur.itch.io/mini-dungeon">Mini Dungeon by Misdur</a></iframe>
 
 ---
 *This project demonstrates my C# programming fundamentals, object-oriented design skills, and ability to create complete game systems using console applications. It showcases clean code practices and thoughtful game design without relying on external graphics or game engines.*
