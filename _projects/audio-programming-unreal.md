@@ -435,7 +435,7 @@ This project significantly improved my technical abilities and gave me deeper ap
 **Module**: <span style="color:Chartreuse">MOD008619 - Technical Development for Games</span> \
 **Element**: <span style="color:Chartreuse">010 - Audio Programming</span> \
 **Academic Year**: <span style="color:Chartreuse">2023/24</span> \
-**Grade**: <span style="color:Chartreuse">B</span> \
+**Grade**: <span style="color:Chartreuse">B</span>
 
 # Links
 <iframe frameborder="0" src="https://itch.io/embed/4109132" width="552" height="167"><a href="https://misdur.itch.io/audio-programming-prototype-documentation">Audio Programming Prototype - Documentation by Misdur</a></iframe>
