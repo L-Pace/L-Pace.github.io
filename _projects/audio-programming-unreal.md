@@ -8,7 +8,8 @@ header:
     actions:
         - label: "Watch on YouTube"
           url: "https://youtu.be/GKmEGeXDGeE"
-          
+        - label: "Download the Documentation"
+          url: "https://misdur.itch.io/audio-programming-prototype-documentation"          
 tags:
     - Unreal Engine 5
     - Game Development
@@ -435,6 +436,9 @@ This project significantly improved my technical abilities and gave me deeper ap
 **Element**: <span style="color:Chartreuse">010 - Audio Programming</span> \
 **Academic Year**: <span style="color:Chartreuse">2023/24</span> \
 **Grade**: <span style="color:Chartreuse">B</span> \
+
+# Links
+<iframe frameborder="0" src="https://itch.io/embed/4109132" width="552" height="167"><a href="https://misdur.itch.io/audio-programming-prototype-documentation">Audio Programming Prototype - Documentation by Misdur</a></iframe>
 
 ---
 *This project demonstrates my ability to integrate professional audio middleware with Unreal Engine, implement dynamic audio systems, and create immersive soundscapes that enhance player experience. It showcases both technical programming skills and understanding of audio design principles.*
