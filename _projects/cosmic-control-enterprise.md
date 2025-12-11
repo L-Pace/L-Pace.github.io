@@ -10,7 +10,7 @@ header:
         - label: "View on GitHub"
           url: "https://github.com/L-Pace/cosmic-control-enterprises"
         - label: "Download"
-          url: "https://misdur.itch.io/cosmic-control-enterprises"
+          url: "https://spacegaminglab.itch.io/cosmic-control-enterprises"
 
 tags:
     - Unity
@@ -743,7 +743,7 @@ Four Quarters team (2015) *Please, don’t touch anything!* Available at: [Pleas
 
 # Links
 - [GitHub Repository](https://github.com/L-Pace/cosmic-control-enterprises) View the complete source code
-- [Download Executable](https://misdur.itch.io/cosmic-control-enterprises) Play the game (if compiled version available) 
+- [Download Executable](https://spacegaminglab.itch.io/cosmic-control-enterprises) Play the game (if compiled version available) 
 
 ---
 *This project shows my Unity, C# scripting, and game design skills. It showcases my ability to produce a finished product within the limited time due the deadline with limited low-poly assets for the game environment. Therefore, clean code practice.*

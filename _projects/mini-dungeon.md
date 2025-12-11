@@ -10,7 +10,7 @@ header:
         - label: "View on GitHub"
           url: "https://github.com/L-Pace/MiniDungeon"
         - label: "Download"
-          url: "https://misdur.itch.io/mini-dungeon"
+          url: "https://spacegaminglab.itch.io/mini-dungeon"
           
 tags:
     - C#
@@ -1805,7 +1805,7 @@ If I were to expand this project, I would consider:
 - [GitHub Repository](https://github.com/L-Pace/MiniDungeon) View the complete source code
 - Play the game
 
-<iframe frameborder="0" src="https://itch.io/embed/3843940" width="552" height="167"><a href="https://misdur.itch.io/mini-dungeon">Mini Dungeon by Misdur</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/3843940" width="552" height="167"><a href="https://spacegaminglab.itch.io/mini-dungeon">Mini Dungeon by spacegaminglab</a></iframe>
 
 ---
 *This project demonstrates my C# programming fundamentals, object-oriented design skills, and ability to create complete game systems using console applications. It showcases clean code practices and thoughtful game design without relying on external graphics or game engines.*

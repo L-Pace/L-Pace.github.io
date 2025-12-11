@@ -9,7 +9,7 @@ header:
         - label: "View on GitHub"
           url: "https://github.com/L-Pace/the-quantum-market"
         - label: "Download"
-          url: "https://misdur.itch.io/the-quantum-market"
+          url: "https://spacegaminglab.itch.io/the-quantum-market"
 
 tags:
     - Unity
@@ -438,7 +438,7 @@ This project served as both a practical implementation and academic research int
 - [GitHub Repository](https://github.com/L-Pace/the-quantum-market) - View complete source code
 - Download the game, full development report and the technical documentation from Itch.io
   
-<iframe frameborder="0" src="https://itch.io/embed/4092392" width="552" height="167"><a href="https://misdur.itch.io/the-quantum-market">The Quantum Market by Misdur</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/4092392" width="552" height="167"><a href="https://spacegaminglab.itch.io/the-quantum-market">The Quantum Market by spacegaminglab</a></iframe>
 
 ---
 *This project demonstrates my ability to architect complex game systems using modern Unity patterns, implement procedural content generation, and create designer-friendly tools while maintaining clean, maintainable code. It showcases both technical programming skills and understanding of game development workflows.*
