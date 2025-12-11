@@ -20,7 +20,7 @@ tags:
     - Non-Photorealistic Rendering
     - Shader Graphs
 
-date: 2025-04-01
+date: 2025-04-18
 
 published: false
 ---
@@ -507,7 +507,7 @@ public class CustomPostProcessRenderFeature : ScriptableRendererFeature
 
 # Artistic Inspiration & Analysis
 ## Hi-Fi Rush Influence
-Studied Hi-Fi Rush's vibrant, rhythm-driven visual style:
+Studied *Hi-Fi Rush*'s vibrant, rhythm-driven visual style:
 
 **Key Observations:**
 - Intense, saturated color palettes enhancing gameplay clarity
@@ -516,3 +516,155 @@ Studied Hi-Fi Rush's vibrant, rhythm-driven visual style:
 - Clean geometric shapes with strong silhouettes
 
 **Implementation**: Custom bloom system specifically designed to replicate Hi-Fi Rush's distinctive glow effect, allowing texture-based masking for precise control.
+
+## Borderlands Comic Book Aesthetic
+Analyzed *Borderlands'* unique cel-shaded appearance:
+
+**Key Observations**:
+
+- Thick, prominent black outlines creating hand-drawn look
+- High-contrast lighting with distinct shadow bands
+- Texture-based details combined with flat shading
+- Comic book panel-inspired composition
+
+**Implementation**: Outline system parameters tuned to achieve similar bold outlines while maintaining performance on low-poly models.
+
+## Visual Longevity Research
+**Keo**'s (2017) concept of "visual longevity" influenced design decisions:
+
+**Principle**: Stylized graphics resist technical aging better than photorealism
+
+**Application**:
+
+- Simplified geometric forms with artistic enhancement
+- Focus on strong art direction over technical complexity
+- Timeless aesthetic not tied to current rendering capabilities
+- Artistic expression prioritized over graphical realism
+
+# Learning Outcomes
+## Technical Skills Developed
+**Graphics Programming**: Deep understanding of shader development, render pipelines, and post-processing effects
+
+**Shader Graph Mastery**: Proficiency in visual shader creation, node-based programming, and parameter management
+
+**C# Render Pipeline Extension**: Ability to extend Unity's rendering system with custom features and passes
+
+**Performance Optimization**: Techniques for maintaining real-time performance with custom rendering effects
+
+**Technical Art**: Bridging programmer and artist workflows through tool development
+
+## Game Development Insights
+**NPR Techniques**: Comprehensive knowledge of non-photorealistic rendering approaches and their applications
+
+**Art Direction**: Understanding how technical choices affect artistic expression and player perception
+
+**Tool Development**: Creating artist-friendly systems that don't require programming knowledge
+
+**Research Methodology**: Analyzing commercial games to understand implementation techniques
+
+**Documentation**: Importance of clear technical documentation for complex systems
+
+# System Architecture Benefits
+## For Technical Artists
+
+- **Visual Programming**: Shader Graph eliminates code barrier for shader creation
+- **Real-Time Feedback**: Immediate visual results when adjusting parameters
+- **Modular Design**: Components can be used independently or combined
+- **Version Control Friendly**: Text-based Shader Graph files work well with Git
+
+## For Programmers
+
+- **Extensible Architecture**: Clear separation between shader logic and render passes
+- **Maintainable Code**: Well-structured C# scripts following Unity conventions
+- **Performance Conscious**: Optimized rendering paths with minimal overhead
+- **Documented System**: Inline comments and technical documentation
+
+## For Game Designers
+
+- **Artistic Control**: All parameters accessible through familiar Unity Inspector
+- **Style Versatility**: Single system supports multiple artistic directions
+- **Quick Iteration**: Changes visible immediately without compilation
+- **No Code Required**: Complete control without touching shader code
+
+# Future Enhancements
+If expanding this project, I would implement:
+
+## Dynamic Lighting Support
+
+- Currently optimized for static lighting
+- Extend shader to handle dynamic directional, point, and spot lights
+- Implement light accumulation for multiple light sources
+- Maintain toon aesthetic with dynamic lighting calculations
+
+## Mobile Platform Optimization
+
+- Create simplified shader variants for mobile GPUs
+- Implement quality settings for scalable performance
+- Optimize render passes for tile-based rendering
+- Reduce texture memory usage for mobile constraints
+
+## Additional Stylistic Variations
+
+- Watercolor-style shader with paper texture effects
+- Hatching/cross-hatching for shadow rendering
+- Paint stroke simulation for artistic variation
+- Customizable pattern overlays for unique styles
+
+## Runtime Style Switching
+
+- System for transitioning between different shader configurations
+- Gameplay-driven visual changes tied to game events
+- Smooth parameter interpolation during transitions
+- Preset management system for quick style changes
+
+## Advanced Material System
+
+- Support for more complex material properties
+- Subsurface scattering for specific material types
+- Anisotropic highlights for specialized surfaces
+- Texture-based detail enhancement
+
+# Technical Specifications
+**Engine**: <span style="color:Chartreuse">Unity 2022.3 LTS</span> \
+**Rendering Pipeline**: <span style="color:Chartreuse">Universal Render Pipeline (URP) 14.0.11</span> \
+**Programming**: <span style="color:Chartreuse">C#, Shader Graph</span> \
+**Platform:**: <span style="color:Chartreuse">PC</span> \
+**Development Tools**: <span style="color:Chartreuse">Unity Editor, Visual Studio, Shader Graph</span> \
+**Assets Used**: <span style="color:Chartreuse">Asset Store (Low-Poly Medieval Market, Polygon Fantasy Characters)</span> 
+
+# Reflection 
+Developing this toon shader system was an enlightening journey into graphics programming and technical art. This project opened my eyes to an area of game development I had never thoroughly explored before - the intricate relationship between technical implementation and artistic expression.
+
+The most significant challenge was implementing the custom bloom effect through the Scriptable Render Pipeline. With limited documentation available for this relatively new Unity feature, I spent considerable time in trial-and-error experimentation. While frustrating initially, this process forced me to develop a deep understanding of render pipeline architecture, which will prove invaluable in future projects.
+
+I'm particularly proud of the hybrid outline solution. Traditional outline techniques consistently failed on low-poly geometry, producing inconsistent or broken results. The combination of normal-based and depth-based detection represents original problem-solving that addresses a real technical challenge in stylized rendering.
+
+If I could restart this project, I would allocate more time to researching the Scriptable Render Pipeline before implementation. Establishing a stronger theoretical foundation would have accelerated development and reduced frustration. Additionally, I would implement a more robust testing framework with diverse low-poly models to identify edge cases earlier.
+
+The research into games like *Hi-Fi Rush* and *Borderlands* provided valuable context for understanding how commercial studios approach stylized rendering. Analyzing their techniques revealed that successful non-photorealistic rendering requires careful balance between technical sophistication and artistic restraint.
+
+This project significantly expanded my skill set, combining graphics programming, shader development, and technical art. More importantly, it taught me to think from both programmer and artist perspectives - a critical skill for creating tools that empower creative expression without requiring technical expertise.
+
+The resulting shader system successfully demonstrates how toon shading can enhance low-poly aesthetics while providing extensive artistic control. While there's room for future enhancements, particularly in dynamic lighting support and mobile optimization, the current implementation achieves its core objective: creating a versatile, artist-friendly framework for stylized low-poly rendering.
+
+# References
+Keo, M (2017) Graphical Style in Video Games. Bachelor’s Thesis. Available at:
+[https://core.ac.uk/download/pdf/93082889.pdf](https://core.ac.uk/download/pdf/93082889.pdf) (Accessed: 18 April 2025)
+
+# Academic Context
+**Institution**: <span style="color:Chartreuse">Anglia Ruskin University, Cambridge</span> \
+**Course**: <span style="color:Chartreuse">BSc Computer Games Technology</span> \
+**Module**: <span style="color:Chartreuse">MOD008624 - Major Project for Games</span> \
+**Component**: <span style="color:Chartreuse">010-2 - Technical Implementation</span> \
+**Grade**: <span style="color:Chartreuse">A</span> \
+**Academic Year**: <span style="color:Chartreuse">2024/25</span>
+
+This project served as both practical implementation and academic research into non-photorealistic rendering techniques, contributing to understanding of how stylized graphics can create visually distinctive games with strong artistic direction.
+
+# Links
+- [GitHub Repository](https://github.com/L-Pace/toon-shader-project) View the complete source code
+- Download the demo and the full academic research
+  <iframe frameborder="0" src="https://itch.io/embed/4111475" width="552" height="167"><a href="https://spacegaminglab.itch.io/tooncel-shader-prototype">Toon/Cel Shader Prototype by Luca Pace</a></iframe>
+
+---
+*This project demonstrates my ability to implement advanced graphics techniques using modern game engine tools, extend rendering pipelines with custom features, and create artist-friendly systems that balance technical sophistication with accessibility. It showcases both graphics programming skills and understanding of non-photorealistic rendering principles.*
