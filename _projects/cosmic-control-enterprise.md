@@ -743,7 +743,8 @@ Four Quarters team (2015) *Please, don’t touch anything!* Available at: [Pleas
 
 # Links
 - [GitHub Repository](https://github.com/L-Pace/cosmic-control-enterprises) View the complete source code
-- [Download Executable](https://spacegaminglab.itch.io/cosmic-control-enterprises) Play the game (if compiled version available) 
+- Download the demo and the full academic report
+  <iframe frameborder="0" src="https://itch.io/embed/3861722?dark=true" width="552" height="167"><a href="https://spacegaminglab.itch.io/cosmic-control-enterprises">Cosmic Control Enterprises by Luca Pace</a></iframe>
 
 ---
 *This project shows my Unity, C# scripting, and game design skills. It showcases my ability to produce a finished product within the limited time due the deadline with limited low-poly assets for the game environment. Therefore, clean code practice.*

@@ -664,7 +664,7 @@ This project served as both practical implementation and academic research into 
 # Links
 - [GitHub Repository](https://github.com/L-Pace/toon-shader-project) View the complete source code
 - Download the demo and the full academic research
-  <iframe frameborder="0" src="https://itch.io/embed/4111475" width="552" height="167"><a href="https://spacegaminglab.itch.io/tooncel-shader-prototype">Toon/Cel Shader Prototype by Luca Pace</a></iframe>
+  <iframe frameborder="0" src="https://itch.io/embed/4111475?dark=true" width="552" height="167"><a href="https://spacegaminglab.itch.io/tooncel-shader-prototype">Toon/Cel Shader Prototype by Luca Pace</a></iframe>
 
 ---
 *This project demonstrates my ability to implement advanced graphics techniques using modern game engine tools, extend rendering pipelines with custom features, and create artist-friendly systems that balance technical sophistication with accessibility. It showcases both graphics programming skills and understanding of non-photorealistic rendering principles.*
