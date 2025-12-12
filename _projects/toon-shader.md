@@ -22,7 +22,41 @@ tags:
 
 date: 2025-04-18
 
-published: false
+gallery:
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-2.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-2.png
+      alt: "Low-Poly Character Model without the Toon Shader"
+      title: "Low-Poly Character Model without the Toon Shader"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-4.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-4.png
+      alt: "Low-Poly Character Model with the Toon Shader"
+      title: "Low-Poly Character Model with the Toon Shader"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-5.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-5.png
+      alt: "Toon Shader on the Character Model and Environment"
+      title: "Toon Shader on the Character Model and Environment"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot6-.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-6.png
+      alt: "Details on Bread"
+      title: "Details on Bread"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-8.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-8.png
+      alt: "Toon Shader Scattered Outline"
+      title: "Toon Shader Scattered Outline"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-12.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-12.png
+      alt: "Toon Shader with Final Outline"
+      title: "Toon Shader with Final Outline"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-13.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-13.png
+      alt: "Toon Shader with Custom Bloom on the Armors"
+      title: "Toon Shader with Custom Bloom on the Armors"
+    - url: /assets/images/projects/toon-shader/screenshots/screenshot-18.png
+      image_path: /assets/images/projects/toon-shader/screenshots/screenshot-18.png
+      alt: "Toon Shader Graph Detail on Calculate the Shadow"
+      title: "Toon Shader Graph Detail on Calculate the Shadow"   
+
+published: true
 ---
 
 # Project Overview
@@ -36,6 +70,9 @@ Inspired by the distinctive visual styles of games like *Hi-Fi Rush* and *Border
 **Team Size**: <span style="color:Chartreuse">Solo project</span> \
 **Role**: <span style="color:Chartreuse">Graphics Programmer & Technical Artist</span> \
 **Platform**: <span style="color:Chartreuse">Unity</span> 
+
+# Screenshots
+{% include gallery caption="Custom toon shader system showcasing light banding, rim lighting, outlines, and custom bloom effects applied to low-poly medieval environment and character models" %}
 
 # Research Focus
 This investigation explores several key areas of non-photorealistic rendering:
@@ -58,17 +95,29 @@ This investigation explores several key areas of non-photorealistic rendering:
 - Customizable band thresholds for different artistic styles
 - Optimized for low-poly geometry with minimal light complexity
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-1.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 1:</b></i> <i>Low-Poly Model before applying the toon shader</i></p>
+
 ### Rim Lighting
 - Enhanced edge definition highlighting object silhouettes
 - Adjustable color, intensity, and width parameters
 - Particularly effective on low-poly models, emphasizing geometric qualities
 - Inspector-accessible controls for real-time artistic adjustments
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-3.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 2:</b></i> <i>Low-Poly Model after applying the toon shader</i></p>
+
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-19.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 3:</b></i> <i>Low-Poly Model with adjusted shadows</i></p>
+
 ### Material Properties
 - Customizable base colors and tint options
 - Specular highlights with controllable intensity
 - Shadow color control for artistic expression
 - Support for texture-based variations
+
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-21.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 3:</b></i> <i>Adjustable toon shading in Unity Inspector</i></p>
 
 ## 🖼️ Custom Outline System
 ### Hybrid Outline Approach
@@ -84,6 +133,9 @@ This investigation explores several key areas of non-photorealistic rendering:
 - Better performance than traditional vertex extrusion methods
 - Maintains outline consistency during camera movement
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-22.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 4:</b></i> <i>Outline on the environment and character model</i></p>
+
 ## Custom Bloom Effect (Hi-Fi Rush Style)
 ### Scriptable Render Pipeline Implementation
 
@@ -92,6 +144,9 @@ This investigation explores several key areas of non-photorealistic rendering:
 - Texture-based masking instead of camera-based application
 - Superior artistic control compared to Unity's standard bloom
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-23.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 5:</b></i> <i>Custom Bloom applied to the scene</i></p>
+
 ### Customizable Parameters
 - Threshold control for bloom activation
 - Intensity adjustment for effect strength
@@ -99,10 +154,16 @@ This investigation explores several key areas of non-photorealistic rendering:
 - Color tint for stylistic variations
 - All parameters exposed in Unity Inspector
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-24.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 6:</b></i> <i>Adjustable Bloom Effect in Unity Inspector</i></p>
+
 # Technical Implementation
 ## Shader Graph Architecture
 ### Base Toon Shader
 The core toon shader uses node-based visual programming in Shader Graph:
+
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-14.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 7:</b></i> <i>Toon Shader Graph</i></p>
 
 ```bash
 Main Shader Pipeline:
@@ -131,6 +192,9 @@ Main Shader Pipeline:
 ### Outline Shader Graph
 Hybrid approach combining multiple detection methods:
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-16.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 8:</b></i> <i>Outline Shader Graph </i></p>
+
 ```bash
 Outline Pipeline:
 ├── Normal-Based Detection
@@ -149,6 +213,12 @@ Outline Pipeline:
 ```
 
 **Innovation**: This hybrid approach solves the common problem of inconsistent outlines on low-poly models by combining both silhouette and internal edge detection.
+
+### Custom Bloom Effect Shader Graph
+Shader Graph in combination with unity bloom effect via scripting
+
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-17.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 9:</b></i> <i>Custom Bloom Shader Graph</i></p>
 
 ## Custom Render Pass System
 Implemented through three interconnected C# scripts:
@@ -477,6 +547,12 @@ public class CustomPostProcessRenderFeature : ScriptableRendererFeature
 
 **Result**: Consistent, visually appealing outlines across all geometry types, from simple planes to complex character models.
 
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-10.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 10:</b></i> <i>Inconsistent Outline</i></p>
+
+![image-center](/assets/images/projects/toon-shader/screenshots/screenshot-11.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 11:</b></i> <i>More consistent outline</i></p>
+
 ## Challenge 2
 ### Scriptable Render Pipeline Learning Curve
 **Problem**: Limited documentation for Unity's Scriptable Render Pipeline made implementing custom bloom challenging. Trial-and-error process consuming significant development time.
@@ -507,6 +583,9 @@ public class CustomPostProcessRenderFeature : ScriptableRendererFeature
 
 # Artistic Inspiration & Analysis
 ## Hi-Fi Rush Influence
+![image-center](/assets/images/projects/toon-shader/screenshots/hi-fi-rush.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 12:</b></i> <i>Hi-Fi Rush environment details</i></p>
+
 Studied *Hi-Fi Rush*'s vibrant, rhythm-driven visual style:
 
 **Key Observations:**
@@ -518,6 +597,10 @@ Studied *Hi-Fi Rush*'s vibrant, rhythm-driven visual style:
 **Implementation**: Custom bloom system specifically designed to replicate Hi-Fi Rush's distinctive glow effect, allowing texture-based masking for precise control.
 
 ## Borderlands Comic Book Aesthetic
+
+![image-center](/assets/images/projects/toon-shader/screenshots/boarderlands.png){: style="width:800px" .align-center} 
+<p style="text-align:center;"><i><b>Figure 13:</b></i> <i>Borderlands details</i></p>
+
 Analyzed *Borderlands'* unique cel-shaded appearance:
 
 **Key Observations**:
